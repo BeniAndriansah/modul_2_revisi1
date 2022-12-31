@@ -7,11 +7,6 @@ var AIChoice = "";
 var playerScoreInc = 0;
 var AIScoreInc = 0;
 
-function playerMove()
-{
-    rockbtn.addEventListener("click", )
-}
-
 function AIMove()
 {
     const possibility = ["rock", "paper", "scissor"];
@@ -48,7 +43,7 @@ function game(playerMove)
         console.log("draw")
     }
     else
-    {
+    {   
         playerScoreInc++;
         playerScore.innerHTML = playerScoreInc;
     }
